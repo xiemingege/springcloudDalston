@@ -17,6 +17,8 @@ public class HelloCroller {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String helloCloud() {
+        System.out.println("有点意思");
         return "say hello";
     }
+
 }
