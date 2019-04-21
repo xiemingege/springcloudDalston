@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * @auther 谢敏
  * @create 2019/4/18
  * @TINE 22:42
  **/
