@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @create 2019/4/21
  * @TINE 16:22
  **/
-@FeignClient("eureka-consumer")
+@FeignClient("eureka-client")
 public interface HelloDao {
     @GetMapping("/hello")
     String consumer();
