@@ -45,6 +45,7 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!--监控模块以开启监控相关的端点，并确保已经引入断路器的依赖spring-cloud-starter-hystrix-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-ribbon</artifactId>
